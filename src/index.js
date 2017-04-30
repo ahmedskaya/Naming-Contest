@@ -1,23 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const App = (props) => {
-  return (
-    <h2 className="text-center">
-      {props.headerMessage}
-    </h2>
-  );
-};
+import data from './testData';
+console.log(data);
 
-App.propTypes = {
-  headerMessage: React.PropTypes.string
-};
-
-App.defaultProps = {
-  headerMessage: 'Hello!!'
-};
+import App from './components/App';
 
 ReactDOM.render(
-  <App />,
+  <App contests={data.contests} />,
   document.getElementById('root')
 );
