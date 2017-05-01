@@ -1,6 +1,6 @@
 import React from 'react';
 import ContestPreview from './ContestPreview';
-import PropTypes from 'prop-types';
+
 const ContestList = ({ contests, onContestClick }) => (
   <div className="ContestList">
     {Object.keys(contests).map(contestId =>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+
 class ContestPreview extends Component {
   handleClick = () => {
     this.props.onClick(this.props.id);
