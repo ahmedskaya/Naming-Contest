@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
-
+import PropTypes from 'prop-types';
 import App from './src/components/App';
 
 import config from './config';
