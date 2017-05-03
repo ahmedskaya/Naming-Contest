@@ -7,12 +7,12 @@ This is a full javascript stack project includes:
 * Node.js as a server
 * Express as a middleware
 * MongoDB for data storage
+* Hosted and Deployed on AWS
 
 Application scope:
-	Listing categories of ideas/companies and asking users to propose a name for each idea based on the given description, all data is saved on the database for future decisions.
+> Listing categories of ideas/companies and asking users to propose a name for each idea based on the given description, all data is saved on the database for future decisions.
 
 Please check the [Demo](http://34.209.189.138)
-
 
 API examples:
 * [Contests List](http://34.209.189.138/api/contests/)
