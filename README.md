@@ -8,4 +8,4 @@ This is a full javascript stack project includes:
 * Express as a middleware
 * MongoDB for data storage
 
-Please check the [Demo](http://#)
+Please check the [Demo](http://34.209.189.138)
