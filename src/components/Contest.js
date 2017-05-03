@@ -1,5 +1,5 @@
-import React, { Component, PropTypes } from 'react';
-
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 class Contest extends Component {
   componentDidMount() {
     this.props.fetchNames(this.props.nameIds);
@@ -61,7 +61,7 @@ class Contest extends Component {
 
         <div className="home-link link"
              onClick={this.props.contestListClick}>
-          Contest List
+          Back to Contest List
         </div>
       </div>
     );
