@@ -15,10 +15,10 @@ const router = express.Router();
 router.get('/contests', (req, res) => {
   let contests = {};
   mdb.collection('contests').find({})
-     .project({
-       categoryName: 1,
-       contestName: 1
-     })
+     // .project({
+     //   categoryName: 1,
+     //   contestName: 1
+     // })
      .each((err, contest) => {
        assert.equal(null, err);
 

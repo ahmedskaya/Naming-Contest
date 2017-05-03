@@ -17,3 +17,5 @@ Please check the [Demo](http://34.209.189.138)
 API examples:
 * [Contests List](http://34.209.189.138/api/contests/)
 * [Single Contest Details](http://34.209.189.138/api/contests/5907e69cf085fc50f4bf8e72)
+
+Thanks =)

@@ -3,7 +3,6 @@ import Header from './Header';
 import ContestList from './ContestList';
 import Contest from './Contest';
 import * as api from '../api';
-import elementType from 'react-prop-types/lib/elementType';
 
 const pushState = (obj, url) =>
   window.history.pushState(obj, '', url);
@@ -77,7 +76,7 @@ class App extends React.Component {
   lookupName = (nameId) => {
     if (!this.state.names || !this.state.names[nameId]) {
       return {
-        name: '...'
+        name: 'New Name'
       };
     }
     return this.state.names[nameId];

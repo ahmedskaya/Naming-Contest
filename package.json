@@ -1,7 +1,7 @@
 {
-  "name": "fulljs",
+  "name": "Naming Contest MERN stack",
   "version": "1.0.0",
-  "description": "Learning Fullstack JavaScript Development: MongoDB, Node.js, React.js",
+  "description": "Learning Fullstack JavaScript Development with MERN: MongoDB, Node.js, React.js",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node server.js --ignore public/",
@@ -9,17 +9,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jscomplete/learn-fullstack-javascript.git"
+    "url": "git+https://github.com/ahmedskaya/Naming-Contest.git"
   },
-  "author": "",
+  "author": "Ahmedskaya",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/jscomplete/learn-fullstack-javascript/issues"
+    "url": "https://github.com/ahmedskaya/Naming-Contest.git/issues"
   },
-  "homepage": "https://github.com/jscomplete/learn-fullstack-javascript#readme",
+  "homepage": "https://github.com/ahmedskaya/Naming-Contest.git#readme",
   "dependencies": {
     "axios": "^0.15.0",
     "body-parser": "^1.15.2",
+    "bson": "^1.0.4",
     "ejs": "^2.5.2",
     "express": "^4.14.0",
     "json-loader": "^0.5.4",
